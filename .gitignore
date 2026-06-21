@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environments
+venv/
+.venv/
+env/
+
+# OS
+.DS_Store
+
+# Trained model artifacts (regenerate by running the notebook)
+Model/*.pkl
+
+# Processed data (regenerate from Data/raw via the notebook)
+Data/processed/*
+!Data/processed/.gitkeep
+
+# Keep the Model/ folder tracked even though its contents are ignored
+!Model/.gitkeep
